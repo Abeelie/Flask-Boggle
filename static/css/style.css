@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+	background-color: ;
+}
+
+#boggle {
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	grid-gap: 10px;
+	margin: 50px;
+	justify-content: center;
+	perspective: 500px;
+}
